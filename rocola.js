@@ -14,7 +14,7 @@ class Rocola {
     queue = [];
 
     play(k) {
-        if (this.queue.length > 1) {
+        if (this.queue.length > k) {
             let primero = this.queue.shift();
             this.temas.push(primero);
         }
@@ -27,4 +27,14 @@ class Rocola {
 }
 
 let rocola = new Rocola();
-console.log(rocola(4));
+console.log(rocola.play(4), rocola.queue);
+console.log(rocola.play(4), rocola.queue);
+console.log(rocola.play(4), rocola.queue);
+console.log(rocola.play(4), rocola.queue);
+console.log(rocola.play(4), rocola.queue);
+console.log(rocola.play(4), rocola.queue);
+console.log(rocola.play(4), rocola.queue);
+console.log(rocola.play(4), rocola.queue);
+console.log(rocola.play(4), rocola.queue);
+console.log(rocola.play(4), rocola.queue);
+console.log(rocola.play(4), rocola.queue);
