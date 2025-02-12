@@ -21,7 +21,7 @@ class Rocola {
 
         let indiceRandom = Math.floor(Math.random() * this.temas.length);
 
-        let tema;
-        return tema;
+        let tema = this.temas.splice(indiceRandom, 1);
+        return tema[0];
     }
 }
