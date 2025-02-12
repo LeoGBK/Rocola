@@ -25,3 +25,6 @@ class Rocola {
         return tema;
     }
 }
+
+let rocola = new Rocola();
+console.log(rocola(4));
