@@ -19,7 +19,7 @@ class Rocola {
             this.temas.push(primero);
         }
 
-        let random = Math.floor(Math.random() * this.temas.length);
+        let indiceRandom = Math.floor(Math.random() * this.temas.length);
 
         let tema;
         return tema;
