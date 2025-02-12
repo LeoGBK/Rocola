@@ -20,8 +20,8 @@ class Rocola {
         }
 
         let indiceRandom = Math.floor(Math.random() * this.temas.length);
-
-        let tema = this.temas.splice(indiceRandom, 1);
-        return tema[0];
+        let tema = this.temas.splice(indiceRandom, 1)[0];
+        this.queue.push(tema);
+        return tema;
     }
 }
