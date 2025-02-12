@@ -11,7 +11,14 @@ class Rocola {
         "Te recuerdo Amanda"
     ];
 
+    queue = [];
+
     play(k) {
+        if (this.queue.length > 1) {
+            let primero = this.queue.shift();
+            this.temas.push(primero);
+        }
+
         let tema;
         return tema;
     }
