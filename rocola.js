@@ -27,14 +27,14 @@ class Rocola {
 }
 
 let rocola = new Rocola();
-console.log(rocola.play(4), rocola.queue);
-console.log(rocola.play(4), rocola.queue);
-console.log(rocola.play(4), rocola.queue);
-console.log(rocola.play(4), rocola.queue);
-console.log(rocola.play(4), rocola.queue);
-console.log(rocola.play(4), rocola.queue);
-console.log(rocola.play(4), rocola.queue);
-console.log(rocola.play(4), rocola.queue);
-console.log(rocola.play(4), rocola.queue);
-console.log(rocola.play(4), rocola.queue);
-console.log(rocola.play(4), rocola.queue);
+console.log(rocola.play(4));
+console.log(rocola.play(4));
+console.log(rocola.play(4));
+console.log(rocola.play(4));
+console.log(rocola.play(4));
+console.log(rocola.play(4));
+console.log(rocola.play(4));
+console.log(rocola.play(4));
+console.log(rocola.play(4));
+console.log(rocola.play(4));
+console.log(rocola.play(4));
